@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT iti ( student )+ >
+<!ELEMENT student ( id , name,email? ) >
+<!ELEMENT id ( #PCDATA ) >
+<!ELEMENT name ( #PCDATA ) >
+<!ELEMENT email ( #PCDATA ) >
+<!--
+<!ATTLIST student track NMTOKENS #IMPLIED >
+<!ATTLIST student branch (Tanta|Alex|Smart) "Tanta" >
+-->
+<!ATTLIST student track NMTOKENS #IMPLIED branch (Tanta|Alex|Smart) "Tanta" >
+

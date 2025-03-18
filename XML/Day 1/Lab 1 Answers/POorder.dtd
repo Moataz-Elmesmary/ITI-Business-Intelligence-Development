@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT purchaseOrder (shipTo, billTo, items, ship_date, ship_method)>
+<!ATTLIST purchaseOrder orderDate CDATA #REQUIRED>
+
+<!ELEMENT shipTo (name, street, city, state, zip)>
+<!ATTLIST shipTo country CDATA #REQUIRED>
+
+<!ELEMENT billTo (name, street, city, state, zip)>
+<!ATTLIST billTo country CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+
+<!ELEMENT items (item+)>
+
+<!ELEMENT item (productName, quantity, USPrice)>
+<!ATTLIST item partNum CDATA #REQUIRED>
+
+<!ELEMENT productName (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT USPrice (#PCDATA)>
+
+<!ELEMENT ship_date (#PCDATA)>
+
+<!ELEMENT ship_method EMPTY>
+<!ATTLIST ship_method type CDATA #REQUIRED>
