@@ -39,7 +39,7 @@ A collection of every single lecture, lab, task, project, and resource taken in 
 - 🎨 Color Theory and Compelling Data Visualization Workshop
 - 📊 Tableau Dashboard
 
-### 🎤 16% - Soft Skills & Freelancing
+### 🎯 16% - Soft Skills & Freelancing
 - 💰 Freelancing
 - 📞 Business Communication Skills
 - 🎯 Interviewing Skills
