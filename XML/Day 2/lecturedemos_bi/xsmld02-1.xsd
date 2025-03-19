@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:simpleType name="integer">
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1"/>
+										<xs:maxInclusive value="100"/>
+									</xs:restriction>
+								
+								</xs:simpleType>
+
+<xs:simpleType name="addresstype">
+	<xs:restriction base="xs:string">
+		<xs:pattern value="[A-Z]{4}-\d{4}-[A-Z]{3}"/>
+		<xs:pattern value="[A-Z]{3}-\d{4}-[A-Z]{4}"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="tracktype">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="BI"/>
+		<xs:enumeration value="Python"/>
+		<xs:enumeration value="DotNet"/>
+		<xs:enumeration value="Front"/>
+	</xs:restriction>
+
+</xs:simpleType>
+
+
+	<xs:element name="students">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="student" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="id" type="integer"/>
+							<!--	<xs:element name="id">
+								<xs:simpleType>
+									<xs:restriction base="xs:integer">
+										<xs:minInclusive value="1"/>
+										<xs:maxInclusive value="100"/>
+									</xs:restriction>
+								
+								</xs:simpleType>
+							</xs:element>-->
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="2"/>
+							<xs:element name="address" type="addresstype" minOccurs="0"/>
+							<xs:element name="track" type="tracktype" minOccurs="0"/>
+						</xs:sequence>
+					<xs:attribute name="branch" type="xs:string" use="optional"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

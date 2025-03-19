@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define address elements group -->
+  <xs:group name="addressGroup">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="street" type="xs:string"/>
+      <xs:element name="city" type="xs:string"/>
+      <xs:element name="state" type="xs:string"/>
+      <xs:element name="zip" type="xs:string"/>
+    </xs:sequence>
+  </xs:group>
+
+  <!-- Define address type with country attribute -->
+  <xs:complexType name="addressType">
+    <xs:group ref="addressGroup"/>
+    <xs:attribute name="country" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Define item element type -->
+  <xs:complexType name="itemType">
+    <xs:sequence>
+      <xs:element name="productName" type="xs:string"/>
+      <xs:element name="quantity" type="xs:positiveInteger"/>
+      <xs:element name="USPrice" type="xs:decimal"/>
+      <xs:element name="comment" type="xs:string" minOccurs="0"/>
+      <xs:element name="shipDate" type="xs:date" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="partNum" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <!-- Define items container type -->
+  <xs:complexType name="itemsType">
+    <xs:sequence>
+      <xs:element name="item" type="itemType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Define shipTo element -->
+  <xs:element name="shipTo" type="addressType"/>
+
+  <!-- Define billTo element -->
+  <xs:element name="billTo" type="addressType"/>
+
+  <!-- Define comment element -->
+  <xs:element name="comment" type="xs:string"/>
+
+  <!-- Define items element -->
+  <xs:element name="items" type="itemsType"/>
+
+  <!-- Root element -->
+  <xs:element name="purchaseOrder">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="shipTo"/>
+        <xs:element ref="billTo"/>
+        <xs:element ref="comment" minOccurs="0"/>
+        <xs:element ref="items"/>
+      </xs:sequence>
+      <xs:attribute name="orderDate" type="xs:date" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

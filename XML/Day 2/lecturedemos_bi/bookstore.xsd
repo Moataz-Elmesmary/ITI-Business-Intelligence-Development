@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="title" type="xs:string"/>
+	<xs:element name="author" type="xs:string"/>
+	<xs:element name="isbn" type="xs:string"/>
+	<xs:element name="publisher" type="xs:string" />
+	
+	<xs:group name="bookgroup">
+<xs:sequence>
+							<xs:element ref="title"/>
+							<xs:element ref="author"/>
+							<xs:element ref="isbn"/>
+							<xs:element ref="publisher" minOccurs="0"/>
+						</xs:sequence>
+	
+	</xs:group>
+	
+	<xs:attribute name="branch" type="xs:string"/>
+						<xs:attribute name="track" type="xs:string"/>	
+	
+<xs:attributeGroup name="bookattributes">
+<xs:attribute ref="branch"/>
+					<xs:attribute ref="track"/>
+</xs:attributeGroup>	
+	
+<xs:complexType name="booktype">
+						<xs:group ref="bookgroup"/>
+						<xs:attributeGroup ref="bookattributes"/>
+					</xs:complexType>	
+	
+<xs:complexType name="noveltype">
+						<xs:group ref="bookgroup"/>
+						<xs:attribute ref="branch"/>
+					</xs:complexType>	
+	
+	<xs:element name="book"  type="booktype"/>
+				<xs:element name="novel" type="noveltype"/>	
+	
+	
+	<xs:element name="bookstore">
+		<xs:complexType>
+			<xs:sequence>
+			<xs:element ref="book" maxOccurs="unbounded"/>
+			<xs:element ref="novel"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

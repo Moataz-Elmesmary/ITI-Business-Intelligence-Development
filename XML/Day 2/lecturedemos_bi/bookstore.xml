@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Dr.Nasr\Desktop\bookstore.xsd">
+	<book track="BI" branch="Tanta">
+		<title>intoduction to programing</title>
+		<author>ahmed</author>
+		<isbn>12345</isbn>
+		<publisher>ITI</publisher>
+	</book>
+	<book>
+		<title>intoduction to Network</title>
+		<author>moustafa</author>
+		<isbn>1234545</isbn>
+		<publisher>TU</publisher>
+	</book>
+	<novel branch="Aswan">
+		<title>intoduction to Network</title>
+		<author>moustafa</author>
+		<isbn>1234545</isbn>
+		<publisher>iti</publisher>
+	</novel>
+</bookstore>
