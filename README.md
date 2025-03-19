@@ -1,6 +1,10 @@
 # &emsp;&emsp;&emsp;&emsp;ITI-Business-Intelligence-Development
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<i> ITI Intensive Code Camp – (Power BI Developer) Specialization </i>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>*ITI Intensive Code Camp – (Power BI Developer) Specialization*</b>
 <p align="center"> <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"> </p> <p align="center">
+  
+A collection of every single lecture, lab, task, project, and resource taken in this internship.
+
+<br>
   
 ## 🏆 OVERALL LEARNING JOURNEY OUTLINE
 
