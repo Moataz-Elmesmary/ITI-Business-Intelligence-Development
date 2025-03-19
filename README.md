@@ -31,7 +31,7 @@ A collection of every single lecture, lab, task, project, and resource taken in 
 - ☁️ Introduction to Cloud Computing
 - 🏗 Introduction to Big Data
 - 📊 Excel Data Analysis and Data Modeling
-- 
+
 ### 📊 18% - Power BI & Visualization Courses
 - 🔄 Introduction to Transformation and Data Modeling in Power BI
 - 📊 Creating Visualizations with Microsoft Power BI
