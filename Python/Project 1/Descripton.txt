@@ -1,0 +1,13 @@
+Clinic Management System
+
+users can:
+- Add new patients with details such as name, age, assigned doctor, and appointment date.
+- View all registered patients.
+- Update an appointment date for a specific patient.
+- Delete patients based on their age.
+
+Features:
+- Stores patient data persistently in a JSON file.
+- Provides a command-line interface (CLI) for managing patient records.
+- Includes basic error handling to manage file operations and user inputs.
+
