@@ -57,12 +57,3 @@ clinic-management/
 │── appointments.json     # Stores scheduled appointments
 │── README.md             # Project documentation
 ```
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Contributions and improvements are welcome! If you have any suggestions, feel free to submit a pull request.
-
