@@ -20,15 +20,12 @@ A **comprehensive clinic management system** built in Python, designed to stream
 ## Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/clinic-management.git
+   git clone https://github.com/Moataz-Elmesmary/ITI-Business-Intelligence-Development/blob/main/Python/Project%201/Clinic%20Management%20System.py
    ```
 2. Navigate to the project folder:
-   ```sh
    cd clinic-management
    ```
 3. Run the program:
-   ```sh
    python clinic_management.py
    ```
 
