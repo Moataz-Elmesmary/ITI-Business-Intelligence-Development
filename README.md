@@ -1,8 +1,8 @@
-# &emsp;&emsp;&emsp;&emsp;ITI-Business-Intelligence-Development
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>*ITI Intensive Code Camp – (Power BI Developer) Specialization*</b>
-<p align="center"> <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"> </p> <p align="center">
+# <p align="center">ITI-Business-Intelligence-Development</p>
+<p align="center"><b><i></i>ITI Intensive Code Camp – (Power BI Developer) Specialization</b></i></p>
+<p align="center"> <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"> </p>
   
-A collection of every single lecture, lab, task, project, and resource taken in this internship.
+<p align="center">A collection of every single lecture, lab, task, project, and resource taken in this internship.</p>
 
 <br>
   
@@ -12,7 +12,7 @@ A collection of every single lecture, lab, task, project, and resource taken in 
 - 🐍 Introduction to Programming using Python
 - 📄 XML Fundamentals
 
-## 🛢 18% - Microsoft Database Concepts
+### 🛢 18% - Microsoft Database Concepts
 - 🔍 Database Fundamentals
 - 🚀 Advanced SQL Server Programming
   
