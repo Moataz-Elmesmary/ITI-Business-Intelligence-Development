@@ -45,3 +45,10 @@
 - 🎯 Interviewing Skills
 - 🎤 Effective Presentation Skills
 
+<p align="center"> <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"> </p>
+
+### 🔗 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MoatazElmesmary-blue?style=flat-square&logo=LinkedIn)](https://www.linkedin.com/in/MoatazElmesmary/)
+[![Twitter](https://img.shields.io/badge/Twitter-MoatazElmesmary-blue?style=flat-square&logo=X)](https://twitter.com/MoatazElmesmary)
+[![GitHub](https://img.shields.io/badge/GitHub-MoatazElmesmary-blue?style=flat-square&logo=github)](https://github.com/Moataz-Elmesmary)
+[![Email](https://img.shields.io/badge/Email-moataz.mesmary@gmail.com-blue?style=flat-square&logo=gmail)](mailto:moataz.mesmary@gmail.com)
