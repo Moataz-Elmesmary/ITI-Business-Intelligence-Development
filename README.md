@@ -1,19 +1,16 @@
-# <p align="center">ITI-Business-Intelligence-Development</p>
+# <p> ITI-Business-Intelligence-Development</p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/243c5c7d-3d39-48f1-b54c-77659bd80f25" alt="ITI Logo" height="120">
-</p>
-
-<p align="center"><b><i>ITI Intensive Code Camp – (Power BI Developer) Specialization</i></b></p>
-
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-</p>
-
-<p align="center">
-  A collection of every single lecture, lab, task, project, and resource taken in this internship.
-</p>
-
+<table>
+  <tr>
+    <td>
+      <p><b><i>ITI Intensive Code Camp – (Power BI Developer) Specialization</i></b></p>
+      <p>A collection of every single lecture, lab, task, project, and resource taken in this internship.</p>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/243c5c7d-3d39-48f1-b54c-77659bd80f25" alt="ITI Logo" height="100">
+    </td>
+  </tr>
+</table>
 
 
 
@@ -55,9 +52,9 @@
 - 📞 **Business Communication Skills**  
 - 🎯 **Interviewing Skills**  
 - 🎤 **Effective Presentation Skills**  
-
-
----
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+</p>
 
 ## 🔗 Connect with Me  
 <p align="center">
