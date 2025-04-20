@@ -1,0 +1,5 @@
+use ITI
+
+CREATE PROCEDURE GetCourses
+AS
+SELECT * FROM Course
