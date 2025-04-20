@@ -1,3 +1,0 @@
-Win_XP,20,,,win_xp
-Web Service,20,,,web service
-HTML,20,,,html
