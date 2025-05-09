@@ -1,0 +1,74 @@
+[{
+  "_id": 1,
+  "status": "D",
+  "lastModified": {
+    "$date": {
+      "$numberLong": "1670062412915"
+    }
+  },
+  "age": 62,
+  "cancellation": {
+    "date": {
+      "$timestamp": {
+        "t": 1670062412,
+        "i": 1
+      }
+    },
+    "reason": "user request"
+  }
+},{
+  "_id": 2,
+  "qty": 500,
+  "age": 3
+},{
+  "_id": 110,
+  "lastModified": {
+    "$date": {
+      "$numberLong": "1670002910790"
+    }
+  },
+  "name": "updated",
+  "age": 3
+},{
+  "_id": 120,
+  "default": "default added",
+  "lastModified": {
+    "$date": {
+      "$numberLong": "1670008010323"
+    }
+  },
+  "qty": 1,
+  "employeeAge": 30
+},{
+  "_id": 5,
+  "status": "x",
+  "name": "eman",
+  "age": 3
+},{
+  "_id": 15,
+  "status": "abc",
+  "name": "replaced",
+  "add": "alex",
+  "age": 2
+},{
+  "0": {
+    "status": "A",
+    "name": "Ali",
+    "age": 10
+  },
+  "1": {
+    "age": 15
+  },
+  "2": {
+    "age": 20
+  },
+  "_id": {
+    "$oid": "638b1589b6498567c685ac4e"
+  },
+  "age": 3
+},{
+  "_id": {
+    "$oid": "638b1da08acb81bc794a16a9"
+  },
+  "employeeAge": 30
+}]
