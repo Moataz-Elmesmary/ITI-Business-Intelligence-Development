@@ -45,5 +45,12 @@ A collection of Power BI lab projects showcasing data transformation, modeling, 
 - **Data Source:** SQL Views + DAX Date Table
 <img src="https://github.com/user-attachments/assets/b6f52ef6-a920-430d-9eab-56b67d1103a7" width="700"/>
 
+---
 
+## 🔹 Lab 5 – US Airlines Delay Analysis
+
+<img src="https://github.com/user-attachments/assets/a0d8a94c-6d27-4a59-b88f-354997703c43" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/f2acc826-8078-4528-bcd9-c82e3c928710" width="700"/>
+<img src="https://github.com/user-attachments/assets/43c82883-60a1-477c-a386-9dfe971f24f7" width="700"/>
 
