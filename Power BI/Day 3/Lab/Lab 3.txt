@@ -1,0 +1,81 @@
+@@ AdventureWorks
+- Data Source: 
+https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
+Conductivity Mode => DirectQuery
+
+Tables:
+Sales.SalesOrderHeader
+Sales.SalesOrderDetail
+Sales.vSalesPerson (view)
+Sales.SalesTerritory
+Purchasing.ShipMethod
+Production.Product
+Production.ProductSubcategory
+Production.ProductCategory
+
+Status (Add based on ufnGetSalesOrderStatusText function)
+Dates (Power Query)
+
+-Rename Tables, columns
+-Remove unused columns 
+
+-one table (Merge M Language)
+Production.Product
+Production.ProductSubcategory
+Production.ProductCategory
+
+Contains: PorductID, Product, SubCategory, Category
+
+Solve TotalDue, Tax and Fright by Power Query or DAX 
+
+Modelig:
+
+- Star Schema 
+- Product Hierarchy
+
+
+- line chart vs. counts (USERELATIONSHIP)
+orderdate
+shipdate
+duedate
+
+Model => Star Schema
+
+Measures
+- # Orders Measure 
+- Total SubTotal Measure 
+- Total Tax Measure 
+- Total Freight Measure 
+- Total Due Measure 
+- # Qty
+
+create DAX table that contains all measures
+
+Visuals: (Use Measures)
+
+- Drill Down
+- Drill Through 
+- Tooltip page
+
+- # Orders Card
+- Total SubTotal Card
+- Total Tax Card
+- Total Freight Card
+- Total Due Card
+
+# Orders by OrderDate vs. ShipDate vs. DueDate
+# Orders by Status
+# Orders by Shipmethod
+# Order Qty by Category, SubCategory, Product
+# Orders by FlagOnlineOffline
+# Orders vs. TotalDue by Territory
+Top 10 Sales Perosns (# Orders or Total Amount) (Filter filter pane)
+
+
+-- Good Colors, Layout and Chart Titles (Meaningful)
+
+Hints:
+
+https://radacad.com/userelationship-or-role-playing-dimension-dealing-with-inactive-relationships-in-power-bi
+
