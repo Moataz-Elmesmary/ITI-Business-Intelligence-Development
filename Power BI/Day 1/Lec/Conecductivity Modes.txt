@@ -1,0 +1,55 @@
+=> Data Source: SQL Server Database
+Table: Customers
+ID (int), Name (string), Gender (string)
+1       , Omar         , M
+2       , Marwa        , F
+3       , Ahmed        , M
+4       , Hajer        , F
+
+------------------------------------------------------------------
+
+=> Power BI: -> 1 GB -> *.pbix -> Semantic Model 'Dataset' (Data + Model) + Report (Visuals) => Data + Model + Visuals
+
+- Import: almsot all data sources => Data + Model + Visuals
+Table: Customers
+ID (int), Name (string), Gender (string)
+1       , Omar         , M
+2       , Marwa        , F
+3       , Ahmed        , M
+4       , Hajer        , F
+
+Visual: # Customers => Power BI => 4 => 4
+
+- DirectQuery: Some of data sources (like: SQL Server database) => Model + Visuals
+Table: Customers
+ID (int), Name (string), Gender (string)
+
+Visual: # Customers => Power BI => SELECT COUNT(ID) FROM Customers => Data Source => Execute => 4 => Power BI => 4 => 4
+
+- LiveConnection: Analysis Services (SSAS OR AAS) & Power BI Semantic Model (Power BI Dataset) => Visuals
+
+
+Power BI Report #1: => *.pbix file =>>> Power BI Service => Power BI Semantic Mode & Reprot (Viusals)
+
+Power BI Report #2 ->Connection ----- Semnatic Mode Report #1>>> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hint: Number of Customers = No. of Customers = # Customers 
