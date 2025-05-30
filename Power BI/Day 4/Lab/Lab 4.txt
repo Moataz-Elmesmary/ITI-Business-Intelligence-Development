@@ -1,0 +1,57 @@
+@@ AdventureWorks
+- Data Source: 
+https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
+Conductivity Mode => Import
+
+Tables:
+vw_DimProducts
+vw_DimSalesPersons
+vw_DimShipMethods
+vw_DimStatuses
+vw_DimTerritories
+vw_FactOrderDetails
+
+DimDates (DAX) Contains: Year, Month, Day, Month Name, Day Name
+ 
+
+Modelig:
+
+- Star Schema 
+- Product Hierarchy
+- Date Hierarchy
+
+
+- line chart vs. counts (USERELATIONSHIP) USE IT IN TABLE 
+orderdate
+shipdate
+duedate
+ 
+
+Measures
+- # Orders Measure 
+- Total SubTotal Measure 
+- Total Tax Measure 
+- Total Freight Measure 
+- Total Due Measure 
+
+
+create DAX table that contains all measures
+
+Visuals: (Use Measures)
+
+- Drill Down
+- Drill Through  
+- Bookmark to switch between to chart (show and hide)
+
+- Add Slicer in two pages and Synced 
+- Max Qty per Product
+- Matrix Chart (Row Territories, Column Years, Values: total sales, total Canada sales)
+- Q&A chart 
+
+-- Good Colors, Layout and Chart Titles (Meaningful)
+
+Hints:
+
+https://radacad.com/userelationship-or-role-playing-dimension-dealing-with-inactive-relationships-in-power-bi
+
