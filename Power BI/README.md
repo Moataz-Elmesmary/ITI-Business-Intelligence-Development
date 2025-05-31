@@ -52,5 +52,5 @@ A collection of Power BI lab projects showcasing data transformation, modeling, 
 <img src="https://github.com/user-attachments/assets/a0d8a94c-6d27-4a59-b88f-354997703c43" width="700"/>
 
 <img src="https://github.com/user-attachments/assets/f2acc826-8078-4528-bcd9-c82e3c928710" width="700"/>
-<img src="https://github.com/user-attachments/assets/43c82883-60a1-477c-a386-9dfe971f24f7" width="700"/>
+<img src="https://github.com/user-attachments/assets/c3de9fe9-15af-49e0-abfe-bca94ede1a1a" width="700"/>
 
