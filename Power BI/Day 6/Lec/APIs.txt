@@ -1,0 +1,19 @@
+API
+
+- Endpoint: --> Address => URL 
+- Authencation: -> Username & Pass - Token
+- Method: Get, Post
+- Funtion: 
+- Paramters: Landline PhoneNumber, TotalAmount, Balance 
+- Response: Text, XML, JSON, ..
+
+-------------------------------------------------------------
+
+API:  Graph --> APIs Facebook 
+
+- Endpoint:        https://graph.facebook.com/v23.0/me?fields=posts{description,message,created_time}
+- Authencation:    Token --> App 
+- Method:          Get
+- Funtion:         GetUserPosts
+- Paramters:       
+- Response:        JSON

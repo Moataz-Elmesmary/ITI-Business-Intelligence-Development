@@ -1,0 +1,32 @@
+@@ Facebook (Graph API)
+
+- Data Source: Graph API (Personal Account or Page) (Posts)
+https://graph.facebook.com/
+https://developers.facebook.com/
+- Create Facebook App 
+
+- Rename Query Name
+- Reanme Columns 
+- Change Datatype
+- Extract Links
+- Extract Hashtags 
+
+Modeling:
+- Add post url
+- # Posts Measure
+- # Posts Previous Month (using calculation group)
+- # Posts Running Total (using calculation group) 
+
+Visuals: (User Measures)
+- # Posts Card 
+- # Posts by Date
+- Post Details in Table (Add post url and change it to icon)
+- Matrix, Month, # Posts, # Posts Previous Month , # Posts Running Total
+
+--- Mobile Layout 
+
+-- Good Colors, Layout and Chart Titles (Meaningful)
+
+-----------------------
+
+Install and Configure Power BI Report Server and Publish Lab 6 on it
