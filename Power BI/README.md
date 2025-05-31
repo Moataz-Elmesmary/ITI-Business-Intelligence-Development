@@ -54,3 +54,13 @@ A collection of Power BI lab projects showcasing data transformation, modeling, 
 <img src="https://github.com/user-attachments/assets/f2acc826-8078-4528-bcd9-c82e3c928710" width="700"/>
 <img src="https://github.com/user-attachments/assets/c3de9fe9-15af-49e0-abfe-bca94ede1a1a" width="700"/>
 
+---
+
+## 🔹 Lab 6 – My Facebook Account Posts Analysis
+
+<img src="https://github.com/user-attachments/assets/cbf93fbd-a331-473b-8fa9-dff66d0a55ec" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/2dcb14f1-0b55-4d0a-9938-4b6b0e6a5772" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/e4526981-55be-4cc5-8774-ed607769104b" width="700"/>
+
