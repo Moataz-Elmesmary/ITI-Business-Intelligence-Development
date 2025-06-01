@@ -64,3 +64,5 @@ A collection of Power BI lab projects showcasing data transformation, modeling, 
 
 <img src="https://github.com/user-attachments/assets/e4526981-55be-4cc5-8774-ed607769104b" width="700"/>
 
+## Author
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin)]([Your_Profile_URL](https://www.linkedin.com/in/moatazelmesmary/))
