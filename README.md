@@ -13,9 +13,6 @@
 </table>
 
 
-<h3 align="center">
-  🔥 <a href="https://github.com/Moataz-Elmesmary/ITI-Examination-System-Graduation-Project" target="_blank">Graduation Project »</a>
-</h3>
 
 ## 🏆 OVERALL LEARNING JOURNEY OUTLINE  
 
