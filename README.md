@@ -55,10 +55,8 @@
 - 💰 **Freelancing**  
 - 📞 **Business Communication Skills**  
 - 🎯 **Interviewing Skills**  
-- 🎤 **Effective Presentation Skills**  
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
-</p>
+- 🎤 **Effective Presentation Skills**
+
 
 ## 🔗 Connect with Me  
 <p align="center">
