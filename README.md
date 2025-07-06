@@ -7,7 +7,7 @@
       <p>A collection of every single lecture, lab, task, project, and resource taken in this internship.</p>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/243c5c7d-3d39-48f1-b54c-77659bd80f25" alt="ITI Logo" width="90">
+      <img src="https://github.com/user-attachments/assets/243c5c7d-3d39-48f1-b54c-77659bd80f25" alt="ITI Logo" width="70">
     </td>
   </tr>
 </table>
